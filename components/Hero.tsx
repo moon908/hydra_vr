@@ -43,8 +43,8 @@ const Hero = () => {
                     </div>
                 </div>
             )}
-            <div className={`absolute ${isMobile ? 'bottom-[2%] gap-2' : 'bottom-[21%] gap-7'} flex flex-col`}>
-                <div className='bg-white/50 w-80 h-16 rounded-4xl mx-[100px] flex items-center gap-2'>
+            <div className={`absolute ${isMobile ? 'bottom-[2%] left-1/2 -translate-x-1/2 gap-2' : 'bottom-[21%] left-[5%] gap-7'} flex flex-col`}>
+                <div className='bg-white/50 w-80 h-16 rounded-4xl flex items-center gap-2'>
                     <div className='bg-black w-14 h-14 rounded-full flex items-center justify-center mx-2'>
                         <TbStereoGlasses className='text-white text-3xl' />
                     </div>
@@ -54,7 +54,7 @@ const Hero = () => {
                         </p>
                     </div>
                 </div>
-                <div className="border-2 border-white/50 bg-transparent w-80 h-16 rounded-4xl mx-[100px] flex items-center gap-2">
+                <div className="border-2 border-white/50 bg-transparent w-80 h-16 rounded-4xl flex items-center gap-2">
                     <div className='bg-black w-14 h-14 rounded-full flex items-center justify-center mx-2'>
                         <AiFillStepForward className='text-white text-3xl' />
                     </div>
