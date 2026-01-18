@@ -25,7 +25,7 @@ const Hero = () => {
 
                     </div>
                     <div>
-                        <img src="/Hero.png" alt="Hero Image" className="absolute right-0 bottom-0 w-[400px] sm:w-[650px] object-cover" />
+                        <img src="/Hero.png" alt="Hero Image" className="absolute right-0 bottom-0 w-[400px] sm:w-[650px] object-cover [mask-image:linear-gradient(to_top,transparent,black_30%)]" />
                     </div>
                 </div>
             </div>
