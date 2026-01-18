@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #343045;
+  --color-secondary: #C0B7E8;
+  --color-accent: #8176AF;
+  --color-highlight: #343045;
+  --color-gradient-start: #8176AF;
+  --color-gradient-end: #C0B7E8;
+}
+
+:root {
+  --background: #343045;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(52, 48, 69, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #C0B7E8 0%, #8176AF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-btn {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  transition: all 0.3s ease;
+}
+
+.gradient-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.outline-btn {
+  border: 1px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+.outline-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.font-orbitron {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
+.mask-fade {
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
